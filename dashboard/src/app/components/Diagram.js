@@ -1,6 +1,7 @@
 import React from "react";
 import MapWrapper from "./MapWrapper";
 import Image from "next/image";
+import Diagram1 from "./Diagram1";
 
 const Diagram = () => {
   return (
@@ -10,14 +11,8 @@ const Diagram = () => {
           <div className=" w-[500px] h-[500px] border border-gray-300">
             <MapWrapper />
           </div>
-          <div>
-            <Image
-              src="/images/graph.png"
-              alt="image1"
-              width={480}
-              height={680}
-              className="m-2"
-            />
+          <div className="w-[500px] h-full border border-gray-300">
+            <Diagram1 />
           </div>
         </div>
       </div>

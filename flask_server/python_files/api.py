@@ -1,8 +1,10 @@
-from flask import Flask, jsonify
-from flask_cors import CORS
+from flask import Flask, jsonify, request
 
+import pandas as pd
+import numpy as np
 import csv
 import json
+from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)
@@ -72,7 +74,7 @@ def calculate_total_neighbourhoods(neighbourhood_file):
         for row in csv_reader:
             count += 1
 
-    return count
+    return (count-1)
 
 data = {
     "chargingStations": calculate_total_charging_stations("/Users/thilanthiduong/Documents/CS-year 2/Winter 2025/comp 345/conuhacksIV/flask_server/input files/bornes-recharge-publiques.csv"), 
@@ -95,6 +97,44 @@ def get_region_info():
     except Exception as e:
         # If there's an error reading the file, return an error message.
         return jsonify({"error": str(e)}), 500
+    
+EV_FILE = "/Users/thilanthiduong/Documents/CS-year 2/Winter 2025/comp 345/conuhacksIV/flask_server/output files/average_ev_with_boroughs.csv"
+AIR_QUALITY_FILE = "/Users/thilanthiduong/Documents/CS-year 2/Winter 2025/comp 345/conuhacksIV/flask_server/output files/average_air_filtered_with_borough.csv"
+
+def normalize_name(name):
+    """Normalize neighborhood names by replacing dash variations."""
+    return str(name).replace("\u2010", "-").replace("\u2013", "-").replace("\u2212", "-")
+
+def calculate_pearson(x, y):
+    """Compute Pearson Correlation Coefficient."""
+    return np.corrcoef(x, y)[0, 1]
+
+@app.route("/api/graph-data", methods=["GET"])
+def get_graph_data():
+    # Load CSV files
+    ev_data = pd.read_csv(EV_FILE)
+    air_quality_data = pd.read_csv(AIR_QUALITY_FILE)
+
+    # Normalize neighborhood names
+    ev_data["Neighborhood"] = ev_data["Neighborhood"].apply(normalize_name)
+    air_quality_data["Neighborhood"] = air_quality_data["Neighborhood"].apply(normalize_name)
+
+    # Merge datasets
+    merged_data = pd.merge(ev_data, air_quality_data, on="Neighborhood", how="inner")
+
+    # Select x and y values for Pearson correlation
+    x = merged_data["Number of EV Charging Stations"]
+    y = merged_data["AVERAGE INDEX"]
+
+    # Calculate Pearson correlation
+    corr_coefficient = calculate_pearson(x, y)
+
+    # Prepare response
+    response = {
+        "data": merged_data.to_dict(orient="records"),
+        "correlation": corr_coefficient
+    }
+    return jsonify(response)
 
 if __name__ == '__main__':
     app.run(port=5004, debug=True)

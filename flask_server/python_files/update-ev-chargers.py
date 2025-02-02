@@ -53,7 +53,7 @@ def fetch_ev_data():
 
             # Save the updated data to a CSV file with quotes around all fields except LONGITUDE and LATITUDE
             df.to_csv(
-                'bornes-recharge-publiques.csv',
+                '/flask_server/output files/bornes-recharge-publiques.csv',
                 index=False,
                 quoting=csv.QUOTE_NONE,  # Do not quote fields with commas by default
                 quotechar='"',  # Ensure fields are quoted with double quotes

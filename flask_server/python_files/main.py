@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import json
 from scipy.stats import pearsonr
+import re
+
 
 # Method to read csv files, filter, and store its data in another CSV file (EV chargers)
 def read_csv_evChargers(ev_input, ev_filtered):
@@ -194,13 +196,20 @@ def plot_graph(ev_file, air_quality_file):
     #load dataset
     ev_data = pd.read_csv(ev_file)
     air_quality_data = pd.read_csv(air_quality_file)
+
+    def normalize_name(name):
+        return re.sub(r'[\u2010-\u2015\u2212]', '-', name)
+
+    ev_data["Neighborhood"] = ev_data["Neighborhood"].apply(normalize_name)
+    air_quality_data["Neighborhood"] = air_quality_data["Neighborhood"].apply(normalize_name)
+
     #keep data of neighborhoods only in air quality data file
     common_neighborhoods = ev_data[ev_data["Neighborhood"].isin(air_quality_data["Neighborhood"])]
     merged_data = pd.merge(common_neighborhoods, air_quality_data, on="Neighborhood")
 
     x=merged_data["Number of EV Charging Stations"]
     y=merged_data["AVERAGE INDEX"]
-
+    
     corr_coefficient, p_value = pearsonr(x, y)
     print(f"Pearson Correlation Coefficient: {corr_coefficient:.2f}")
     print(f"P-value: {p_value:.4f}")
@@ -269,7 +278,3 @@ average_air_quality = "flask_server/output files/average_air_filtered_with_borou
 ev = "flask_server/output files/average_ev_with_boroughs.csv"
 result_file = "flask_server/output files/summary.json"
 create_summary_json(average_air_quality, ev, result_file)
-
-
-
-
