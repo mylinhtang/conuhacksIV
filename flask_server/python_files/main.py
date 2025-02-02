@@ -3,6 +3,8 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import json
+from scipy.stats import pearsonr
 
 # Method to read csv files, filter, and store its data in another CSV file (EV chargers)
 def read_csv_evChargers(ev_input, ev_filtered):
@@ -110,7 +112,7 @@ def filter_air_quality(air_quality_input, air_quality_filtered):
     # Write the filtered data to a new csv file
     with open(air_quality_filtered, mode='w') as file:
         csv_writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        csv_writer.writerow(["NOM", "AVERAGE INDEX"])
+        csv_writer.writerow(["Neighborhood", "AVERAGE INDEX"])
         for row in data:
             csv_writer.writerow(row)
 
@@ -132,9 +134,9 @@ def count_stations_per_neighborhood(stations_input, stations_averaged):
 
         #find the neighborhood name
         try: 
-            neighborhood_index = header.index("NOM")
+            neighborhood_index = header.index("Neighborhood")
         except: 
-            print("Error, no \"NOM\" column found in the CSV file")
+            print("Error, no \"Neighborhood\" column found in the CSV file")
             return
         
         #count stations per neighborhood
@@ -188,41 +190,85 @@ print(f"Total average air quality in Montreal: {average_air_quality}")
 
 
 
-# def plot_graph(ev_file, air_quality_file):
-#     #load dataset
-#     ev_data = pd.read_csv(ev_file)
-#     air_quality_data = pd.read_csv(air_quality_file)
-#     #keep data of neighborhoods only in air quality data file
-#     common_neighborhoods = ev_data[ev_data["Neighborhood"].isin(air_quality_data["Neighborhood"])]
-#     merged_data = pd.merge(common_neighborhoods, air_quality_data, on="Neighborhood")
+def plot_graph(ev_file, air_quality_file):
+    #load dataset
+    ev_data = pd.read_csv(ev_file)
+    air_quality_data = pd.read_csv(air_quality_file)
+    #keep data of neighborhoods only in air quality data file
+    common_neighborhoods = ev_data[ev_data["Neighborhood"].isin(air_quality_data["Neighborhood"])]
+    merged_data = pd.merge(common_neighborhoods, air_quality_data, on="Neighborhood")
 
-#     # Scatter plot
-#     plt.figure(figsize=(8, 5))
-#     sns.scatterplot(
-#     x=merged_data["Number of EV Charging Stations"], 
-#     y=merged_data["Average Air Quality Index"], 
-#     hue=merged_data["Neighborhood"], 
-#     s=100, palette="viridis"
-#     )
+    x=merged_data["Number of EV Charging Stations"]
+    y=merged_data["AVERAGE INDEX"]
 
-#     # Add labels & title
-#     plt.xlabel("Number of EV Charging Stations")
-#     plt.ylabel("Air Quality Index (Higher = Worse)")
-#     plt.title("Correlation Between Air Quality & EV Stations")
-#     plt.legend(title="Neighborhood")
+    corr_coefficient, p_value = pearsonr(x, y)
+    print(f"Pearson Correlation Coefficient: {corr_coefficient:.2f}")
+    print(f"P-value: {p_value:.4f}")
 
-#     # Show plot
-#     plt.show()
+    # Scatter plot
+    plt.figure(figsize=(8, 5))
+    sns.scatterplot(
+        x=x,
+        y=y,
+        hue=merged_data["Neighborhood"], 
+        s=100, palette="viridis"
+    )
 
-# ev_file = "flask_server/output files/average_ev_with_boroughs.csv"
-# air_quality_file = "flask_server/output files/average_air_filtered_with_borough.csv"
-# plot_graph(ev_file, air_quality_file)
+    # Add labels & title
+    plt.xlabel("Number of EV Charging Stations")
+    plt.ylabel("Air Quality Index (Higher = Worse)")
+    plt.title("Correlation Between Air Quality & EV Stations" + f"\nPearson Correlation Coefficient: {corr_coefficient:.2f} | P-value: {p_value:.4f}")
+    plt.legend(title="Neighborhood")
+
+    # Show plot
+    plt.show()
+
+ev_file = "flask_server/output files/average_ev_with_boroughs.csv"
+air_quality_file = "flask_server/output files/average_air_filtered_with_borough.csv"
+plot_graph(ev_file, air_quality_file)
 
 
+# Combining the info to display to UI in a json file 
+def create_summary_json(average_air_quality, ev, result_file):
+    data = []
+
+    with open(ev, "r") as file:
+        csv_reader = csv.reader(file)
+        next(csv_reader)
+
+        for row in csv_reader:
+            data.append([row[0], row[1]])
 
 
+    with open(average_air_quality, "r") as file:
+        csv_reader = csv.reader(file)
+        next(csv_reader)
 
+        dataFromCSV = []
+        for row in csv_reader:
+            dataFromCSV.append([row[0], row[1]])
 
+    
+        for key in data:
+            for row in dataFromCSV:
+                modified_key = key[0].replace("-", "").replace("–", "")
+                modified_row = row[0].replace("-", "").replace("–", "")
+                print(modified_key, modified_row, modified_key == modified_row)
+                if modified_key == modified_row:
+                    key.append(row[1])
+                    break
+            if len(key) == 2:
+                key.append("N/A")
+
+    with open(result_file, "w") as file:
+        json.dump(data, file)
+
+    return
+
+average_air_quality = "flask_server/output files/average_air_filtered_with_borough.csv"
+ev = "flask_server/output files/average_ev_with_boroughs.csv"
+result_file = "flask_server/output files/summary.json"
+create_summary_json(average_air_quality, ev, result_file)
 
 
 

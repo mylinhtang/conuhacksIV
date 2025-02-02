@@ -8,10 +8,10 @@ const Navbar = () => {
       <div className="flex justify-between items-center bg-blue-200 p-4 w-full shadow-md mb-5">
         <div className="flex items-center justify-between p-4 w-40 ">
           <div>
-            <RxDashboard className="text-3xl hover:cursor-pointer" />
+            <RxDashboard className="text-3xl hover:cursor-pointer hover:scale-105 transition-all duration-300" />
           </div>
           <div>
-            <h1 className="text-2xl font-bold hover:cursor-pointer">
+            <h1 className="text-2xl font-bold hover:cursor-pointer ">
               {/* button for source code */}
               GeoAir
             </h1>

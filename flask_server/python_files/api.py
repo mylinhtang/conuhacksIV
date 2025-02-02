@@ -2,6 +2,7 @@ from flask import Flask, jsonify
 from flask_cors import CORS
 
 import csv
+import json
 
 app = Flask(__name__)
 CORS(app)
@@ -83,6 +84,17 @@ data = {
 @app.route('/api/data', methods=['GET'])
 def get_data():
     return jsonify(data)
+
+@app.route('/region-info', methods=['GET'])
+def get_region_info():
+    try:
+        # Open and load the JSON file
+        with open('/Users/thilanthiduong/Documents/CS-year 2/Winter 2025/comp 345/conuhacksIV/flask_server/output files/summary.json', 'r') as file:
+            region_data = json.load(file)
+        return jsonify(region_data)
+    except Exception as e:
+        # If there's an error reading the file, return an error message.
+        return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
     app.run(port=5004, debug=True)

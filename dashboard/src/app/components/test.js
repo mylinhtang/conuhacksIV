@@ -34,19 +34,19 @@ export default function Home() {
         {error && <p className="text-red-500">Error: {error.message}</p>}
         {data && (
           <div className="grid grid-cols-4 gap-4 ">
-            <div className="p-4 border shadow px-4 py-10 rounded-lg text-center">
+            <div className="p-4 border shadow px-4 py-10 rounded-lg text-center bg-white hover:cursor-pointer hover:scale-105 transition-all duration-300">
               <h1 className="text-md font-bold">Total EV Charging Stations</h1>
               <p className="pt-2 text-md">{data.chargingStations}</p>
             </div>
-            <div className="p-4 border px-4 py-10 rounded-lg text-center shadow">
+            <div className="p-4 border px-4 py-10 rounded-lg text-center shadow bg-white hover:cursor-pointer hover:scale-105 transition-all duration-300">
               <h1 className="text-md font-bold">Average Air Quality Index</h1>
               <p className="pt-2 text-md">{data.AvgAirQuality}</p>
             </div>
-            <div className="p-4 border px-4 py-10 rounded-lg text-center shadow">
+            <div className="p-4 border px-4 py-10 rounded-lg text-center shadow bg-white hover:cursor-pointer hover:scale-105 transition-all duration-300">
               <h1 className="text-md font-bold">Number of Records (AQI)</h1>
               <p className="pt-2 text-md">{data.NumRecords}</p>
             </div>
-            <div className="p-4 border px-4 py-10 rounded-lg text-center shadow">
+            <div className="p-4 border px-4 py-10 rounded-lg text-center shadow bg-white hover:cursor-pointer hover:scale-105 transition-all duration-300">
               <h1 className="text-md font-bold">
                 Number of Neighbourhoods analyzed
               </h1>
