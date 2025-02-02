@@ -1,0 +1,155 @@
+latitude,longitude,valeur,geometry,index_right,CODEID,NOM,NOM_OFFICI,CODEMAMH,CODE_3C,NUM,ABREV,TYPE,COMMENT,DATEMODIF
+45.641026,-73.499682,24,POINT (-73.499682 45.641026),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.602846,-73.558874,22,POINT (-73.558874 45.602846),13,34,Anjou,Anjou,REM09,ANJ,9,AJ,Arrondissement,,2023-11-29
+45.593325,-73.637328,21,POINT (-73.637328 45.593325),20,8,Montréal-Nord,Montréal-Nord,REM16,MTN,16,MN,Arrondissement,,2023-11-29
+45.502648,-73.663913,19,POINT (-73.663913 45.502648),23,12,Mont-Royal,Mont-Royal,66072,VMR,2,MR,Ville liée,,2023-11-29
+45.512189,-73.566842,20,POINT (-73.566842 45.512189),30,13,Ville-Marie,Ville-Marie,REM19,VIM,20,VM,Arrondissement,,2023-11-29
+45.539928,-73.540388,7,POINT (-73.540388 45.539928),16,16,Mercier-Hochelaga-Maisonneuve,Mercier–Hochelaga-Maisonneuve,REM22,MHM,23,MH,Arrondissement,,2023-11-29
+45.651722,-73.573896,22,POINT (-73.573896 45.651722),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.468297,-73.741185,21,POINT (-73.741185 45.468297),29,7,Saint-Laurent,Saint-Laurent,REM15,VSL,15,LR,Arrondissement,,2023-11-29
+45.542767,-73.572039,22,POINT (-73.572039 45.542767),4,18,Rosemont-La Petite-Patrie,Rosemont–La Petite-Patrie,REM24,RPP,25,RO,Arrondissement,,2023-11-29
+45.426509,-73.928944,21,POINT (-73.928944 45.426509),8,31,Sainte-Anne-de-Bellevue,Sainte-Anne-de-Bellevue,66117,SAB,76,BV,Ville liée,,2023-11-29
+45.464611,-73.582583,20,POINT (-73.582583 45.464611),15,14,Le Sud-Ouest,Le Sud-Ouest,REM20,LSO,21,SO,Arrondissement,Il est important de noter que la limite située sur la falaise Saint-Jacques n'est pas officielle. Cette limite est à préciser.,2023-11-29
+45.641026,-73.499682,25,POINT (-73.499682 45.641026),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.602846,-73.558874,21,POINT (-73.558874 45.602846),13,34,Anjou,Anjou,REM09,ANJ,9,AJ,Arrondissement,,2023-11-29
+45.593325,-73.637328,23,POINT (-73.637328 45.593325),20,8,Montréal-Nord,Montréal-Nord,REM16,MTN,16,MN,Arrondissement,,2023-11-29
+45.502648,-73.663913,20,POINT (-73.663913 45.502648),23,12,Mont-Royal,Mont-Royal,66072,VMR,2,MR,Ville liée,,2023-11-29
+45.512189,-73.566842,20,POINT (-73.566842 45.512189),30,13,Ville-Marie,Ville-Marie,REM19,VIM,20,VM,Arrondissement,,2023-11-29
+45.539928,-73.540388,6,POINT (-73.540388 45.539928),16,16,Mercier-Hochelaga-Maisonneuve,Mercier–Hochelaga-Maisonneuve,REM22,MHM,23,MH,Arrondissement,,2023-11-29
+45.651722,-73.573896,23,POINT (-73.573896 45.651722),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.468297,-73.741185,23,POINT (-73.741185 45.468297),29,7,Saint-Laurent,Saint-Laurent,REM15,VSL,15,LR,Arrondissement,,2023-11-29
+45.542767,-73.572039,22,POINT (-73.572039 45.542767),4,18,Rosemont-La Petite-Patrie,Rosemont–La Petite-Patrie,REM24,RPP,25,RO,Arrondissement,,2023-11-29
+45.426509,-73.928944,22,POINT (-73.928944 45.426509),8,31,Sainte-Anne-de-Bellevue,Sainte-Anne-de-Bellevue,66117,SAB,76,BV,Ville liée,,2023-11-29
+45.464611,-73.582583,21,POINT (-73.582583 45.464611),15,14,Le Sud-Ouest,Le Sud-Ouest,REM20,LSO,21,SO,Arrondissement,Il est important de noter que la limite située sur la falaise Saint-Jacques n'est pas officielle. Cette limite est à préciser.,2023-11-29
+45.641026,-73.499682,25,POINT (-73.499682 45.641026),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.602846,-73.558874,22,POINT (-73.558874 45.602846),13,34,Anjou,Anjou,REM09,ANJ,9,AJ,Arrondissement,,2023-11-29
+45.593325,-73.637328,23,POINT (-73.637328 45.593325),20,8,Montréal-Nord,Montréal-Nord,REM16,MTN,16,MN,Arrondissement,,2023-11-29
+45.502648,-73.663913,21,POINT (-73.663913 45.502648),23,12,Mont-Royal,Mont-Royal,66072,VMR,2,MR,Ville liée,,2023-11-29
+45.512189,-73.566842,21,POINT (-73.566842 45.512189),30,13,Ville-Marie,Ville-Marie,REM19,VIM,20,VM,Arrondissement,,2023-11-29
+45.539928,-73.540388,5,POINT (-73.540388 45.539928),16,16,Mercier-Hochelaga-Maisonneuve,Mercier–Hochelaga-Maisonneuve,REM22,MHM,23,MH,Arrondissement,,2023-11-29
+45.651722,-73.573896,23,POINT (-73.573896 45.651722),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.468297,-73.741185,23,POINT (-73.741185 45.468297),29,7,Saint-Laurent,Saint-Laurent,REM15,VSL,15,LR,Arrondissement,,2023-11-29
+45.542767,-73.572039,22,POINT (-73.572039 45.542767),4,18,Rosemont-La Petite-Patrie,Rosemont–La Petite-Patrie,REM24,RPP,25,RO,Arrondissement,,2023-11-29
+45.426509,-73.928944,23,POINT (-73.928944 45.426509),8,31,Sainte-Anne-de-Bellevue,Sainte-Anne-de-Bellevue,66117,SAB,76,BV,Ville liée,,2023-11-29
+45.464611,-73.582583,21,POINT (-73.582583 45.464611),15,14,Le Sud-Ouest,Le Sud-Ouest,REM20,LSO,21,SO,Arrondissement,Il est important de noter que la limite située sur la falaise Saint-Jacques n'est pas officielle. Cette limite est à préciser.,2023-11-29
+45.641026,-73.499682,24,POINT (-73.499682 45.641026),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.602846,-73.558874,22,POINT (-73.558874 45.602846),13,34,Anjou,Anjou,REM09,ANJ,9,AJ,Arrondissement,,2023-11-29
+45.593325,-73.637328,22,POINT (-73.637328 45.593325),20,8,Montréal-Nord,Montréal-Nord,REM16,MTN,16,MN,Arrondissement,,2023-11-29
+45.502648,-73.663913,21,POINT (-73.663913 45.502648),23,12,Mont-Royal,Mont-Royal,66072,VMR,2,MR,Ville liée,,2023-11-29
+45.512189,-73.566842,20,POINT (-73.566842 45.512189),30,13,Ville-Marie,Ville-Marie,REM19,VIM,20,VM,Arrondissement,,2023-11-29
+45.539928,-73.540388,5,POINT (-73.540388 45.539928),16,16,Mercier-Hochelaga-Maisonneuve,Mercier–Hochelaga-Maisonneuve,REM22,MHM,23,MH,Arrondissement,,2023-11-29
+45.651722,-73.573896,23,POINT (-73.573896 45.651722),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.468297,-73.741185,23,POINT (-73.741185 45.468297),29,7,Saint-Laurent,Saint-Laurent,REM15,VSL,15,LR,Arrondissement,,2023-11-29
+45.542767,-73.572039,22,POINT (-73.572039 45.542767),4,18,Rosemont-La Petite-Patrie,Rosemont–La Petite-Patrie,REM24,RPP,25,RO,Arrondissement,,2023-11-29
+45.426509,-73.928944,23,POINT (-73.928944 45.426509),8,31,Sainte-Anne-de-Bellevue,Sainte-Anne-de-Bellevue,66117,SAB,76,BV,Ville liée,,2023-11-29
+45.464611,-73.582583,21,POINT (-73.582583 45.464611),15,14,Le Sud-Ouest,Le Sud-Ouest,REM20,LSO,21,SO,Arrondissement,Il est important de noter que la limite située sur la falaise Saint-Jacques n'est pas officielle. Cette limite est à préciser.,2023-11-29
+45.641026,-73.499682,24,POINT (-73.499682 45.641026),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.602846,-73.558874,22,POINT (-73.558874 45.602846),13,34,Anjou,Anjou,REM09,ANJ,9,AJ,Arrondissement,,2023-11-29
+45.593325,-73.637328,22,POINT (-73.637328 45.593325),20,8,Montréal-Nord,Montréal-Nord,REM16,MTN,16,MN,Arrondissement,,2023-11-29
+45.502648,-73.663913,20,POINT (-73.663913 45.502648),23,12,Mont-Royal,Mont-Royal,66072,VMR,2,MR,Ville liée,,2023-11-29
+45.512189,-73.566842,19,POINT (-73.566842 45.512189),30,13,Ville-Marie,Ville-Marie,REM19,VIM,20,VM,Arrondissement,,2023-11-29
+45.539928,-73.540388,5,POINT (-73.540388 45.539928),16,16,Mercier-Hochelaga-Maisonneuve,Mercier–Hochelaga-Maisonneuve,REM22,MHM,23,MH,Arrondissement,,2023-11-29
+45.651722,-73.573896,23,POINT (-73.573896 45.651722),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.468297,-73.741185,22,POINT (-73.741185 45.468297),29,7,Saint-Laurent,Saint-Laurent,REM15,VSL,15,LR,Arrondissement,,2023-11-29
+45.542767,-73.572039,22,POINT (-73.572039 45.542767),4,18,Rosemont-La Petite-Patrie,Rosemont–La Petite-Patrie,REM24,RPP,25,RO,Arrondissement,,2023-11-29
+45.426509,-73.928944,23,POINT (-73.928944 45.426509),8,31,Sainte-Anne-de-Bellevue,Sainte-Anne-de-Bellevue,66117,SAB,76,BV,Ville liée,,2023-11-29
+45.464611,-73.582583,20,POINT (-73.582583 45.464611),15,14,Le Sud-Ouest,Le Sud-Ouest,REM20,LSO,21,SO,Arrondissement,Il est important de noter que la limite située sur la falaise Saint-Jacques n'est pas officielle. Cette limite est à préciser.,2023-11-29
+45.641026,-73.499682,24,POINT (-73.499682 45.641026),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.602846,-73.558874,21,POINT (-73.558874 45.602846),13,34,Anjou,Anjou,REM09,ANJ,9,AJ,Arrondissement,,2023-11-29
+45.593325,-73.637328,21,POINT (-73.637328 45.593325),20,8,Montréal-Nord,Montréal-Nord,REM16,MTN,16,MN,Arrondissement,,2023-11-29
+45.502648,-73.663913,20,POINT (-73.663913 45.502648),23,12,Mont-Royal,Mont-Royal,66072,VMR,2,MR,Ville liée,,2023-11-29
+45.512189,-73.566842,21,POINT (-73.566842 45.512189),30,13,Ville-Marie,Ville-Marie,REM19,VIM,20,VM,Arrondissement,,2023-11-29
+45.539928,-73.540388,5,POINT (-73.540388 45.539928),16,16,Mercier-Hochelaga-Maisonneuve,Mercier–Hochelaga-Maisonneuve,REM22,MHM,23,MH,Arrondissement,,2023-11-29
+45.651722,-73.573896,22,POINT (-73.573896 45.651722),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.468297,-73.741185,22,POINT (-73.741185 45.468297),29,7,Saint-Laurent,Saint-Laurent,REM15,VSL,15,LR,Arrondissement,,2023-11-29
+45.542767,-73.572039,22,POINT (-73.572039 45.542767),4,18,Rosemont-La Petite-Patrie,Rosemont–La Petite-Patrie,REM24,RPP,25,RO,Arrondissement,,2023-11-29
+45.426509,-73.928944,22,POINT (-73.928944 45.426509),8,31,Sainte-Anne-de-Bellevue,Sainte-Anne-de-Bellevue,66117,SAB,76,BV,Ville liée,,2023-11-29
+45.464611,-73.582583,21,POINT (-73.582583 45.464611),15,14,Le Sud-Ouest,Le Sud-Ouest,REM20,LSO,21,SO,Arrondissement,Il est important de noter que la limite située sur la falaise Saint-Jacques n'est pas officielle. Cette limite est à préciser.,2023-11-29
+45.641026,-73.499682,23,POINT (-73.499682 45.641026),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.602846,-73.558874,19,POINT (-73.558874 45.602846),13,34,Anjou,Anjou,REM09,ANJ,9,AJ,Arrondissement,,2023-11-29
+45.593325,-73.637328,21,POINT (-73.637328 45.593325),20,8,Montréal-Nord,Montréal-Nord,REM16,MTN,16,MN,Arrondissement,,2023-11-29
+45.502648,-73.663913,20,POINT (-73.663913 45.502648),23,12,Mont-Royal,Mont-Royal,66072,VMR,2,MR,Ville liée,,2023-11-29
+45.512189,-73.566842,20,POINT (-73.566842 45.512189),30,13,Ville-Marie,Ville-Marie,REM19,VIM,20,VM,Arrondissement,,2023-11-29
+45.539928,-73.540388,5,POINT (-73.540388 45.539928),16,16,Mercier-Hochelaga-Maisonneuve,Mercier–Hochelaga-Maisonneuve,REM22,MHM,23,MH,Arrondissement,,2023-11-29
+45.651722,-73.573896,22,POINT (-73.573896 45.651722),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.468297,-73.741185,21,POINT (-73.741185 45.468297),29,7,Saint-Laurent,Saint-Laurent,REM15,VSL,15,LR,Arrondissement,,2023-11-29
+45.542767,-73.572039,21,POINT (-73.572039 45.542767),4,18,Rosemont-La Petite-Patrie,Rosemont–La Petite-Patrie,REM24,RPP,25,RO,Arrondissement,,2023-11-29
+45.426509,-73.928944,23,POINT (-73.928944 45.426509),8,31,Sainte-Anne-de-Bellevue,Sainte-Anne-de-Bellevue,66117,SAB,76,BV,Ville liée,,2023-11-29
+45.464611,-73.582583,20,POINT (-73.582583 45.464611),15,14,Le Sud-Ouest,Le Sud-Ouest,REM20,LSO,21,SO,Arrondissement,Il est important de noter que la limite située sur la falaise Saint-Jacques n'est pas officielle. Cette limite est à préciser.,2023-11-29
+45.641026,-73.499682,23,POINT (-73.499682 45.641026),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.602846,-73.558874,22,POINT (-73.558874 45.602846),13,34,Anjou,Anjou,REM09,ANJ,9,AJ,Arrondissement,,2023-11-29
+45.593325,-73.637328,20,POINT (-73.637328 45.593325),20,8,Montréal-Nord,Montréal-Nord,REM16,MTN,16,MN,Arrondissement,,2023-11-29
+45.502648,-73.663913,18,POINT (-73.663913 45.502648),23,12,Mont-Royal,Mont-Royal,66072,VMR,2,MR,Ville liée,,2023-11-29
+45.512189,-73.566842,21,POINT (-73.566842 45.512189),30,13,Ville-Marie,Ville-Marie,REM19,VIM,20,VM,Arrondissement,,2023-11-29
+45.539928,-73.540388,5,POINT (-73.540388 45.539928),16,16,Mercier-Hochelaga-Maisonneuve,Mercier–Hochelaga-Maisonneuve,REM22,MHM,23,MH,Arrondissement,,2023-11-29
+45.651722,-73.573896,23,POINT (-73.573896 45.651722),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.468297,-73.741185,20,POINT (-73.741185 45.468297),29,7,Saint-Laurent,Saint-Laurent,REM15,VSL,15,LR,Arrondissement,,2023-11-29
+45.542767,-73.572039,21,POINT (-73.572039 45.542767),4,18,Rosemont-La Petite-Patrie,Rosemont–La Petite-Patrie,REM24,RPP,25,RO,Arrondissement,,2023-11-29
+45.426509,-73.928944,22,POINT (-73.928944 45.426509),8,31,Sainte-Anne-de-Bellevue,Sainte-Anne-de-Bellevue,66117,SAB,76,BV,Ville liée,,2023-11-29
+45.464611,-73.582583,20,POINT (-73.582583 45.464611),15,14,Le Sud-Ouest,Le Sud-Ouest,REM20,LSO,21,SO,Arrondissement,Il est important de noter que la limite située sur la falaise Saint-Jacques n'est pas officielle. Cette limite est à préciser.,2023-11-29
+45.641026,-73.499682,24,POINT (-73.499682 45.641026),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.602846,-73.558874,20,POINT (-73.558874 45.602846),13,34,Anjou,Anjou,REM09,ANJ,9,AJ,Arrondissement,,2023-11-29
+45.593325,-73.637328,20,POINT (-73.637328 45.593325),20,8,Montréal-Nord,Montréal-Nord,REM16,MTN,16,MN,Arrondissement,,2023-11-29
+45.502648,-73.663913,19,POINT (-73.663913 45.502648),23,12,Mont-Royal,Mont-Royal,66072,VMR,2,MR,Ville liée,,2023-11-29
+45.512189,-73.566842,20,POINT (-73.566842 45.512189),30,13,Ville-Marie,Ville-Marie,REM19,VIM,20,VM,Arrondissement,,2023-11-29
+45.539928,-73.540388,5,POINT (-73.540388 45.539928),16,16,Mercier-Hochelaga-Maisonneuve,Mercier–Hochelaga-Maisonneuve,REM22,MHM,23,MH,Arrondissement,,2023-11-29
+45.651722,-73.573896,22,POINT (-73.573896 45.651722),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.468297,-73.741185,21,POINT (-73.741185 45.468297),29,7,Saint-Laurent,Saint-Laurent,REM15,VSL,15,LR,Arrondissement,,2023-11-29
+45.542767,-73.572039,21,POINT (-73.572039 45.542767),4,18,Rosemont-La Petite-Patrie,Rosemont–La Petite-Patrie,REM24,RPP,25,RO,Arrondissement,,2023-11-29
+45.426509,-73.928944,22,POINT (-73.928944 45.426509),8,31,Sainte-Anne-de-Bellevue,Sainte-Anne-de-Bellevue,66117,SAB,76,BV,Ville liée,,2023-11-29
+45.464611,-73.582583,20,POINT (-73.582583 45.464611),15,14,Le Sud-Ouest,Le Sud-Ouest,REM20,LSO,21,SO,Arrondissement,Il est important de noter que la limite située sur la falaise Saint-Jacques n'est pas officielle. Cette limite est à préciser.,2023-11-29
+45.641026,-73.499682,25,POINT (-73.499682 45.641026),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.602846,-73.558874,21,POINT (-73.558874 45.602846),13,34,Anjou,Anjou,REM09,ANJ,9,AJ,Arrondissement,,2023-11-29
+45.593325,-73.637328,21,POINT (-73.637328 45.593325),20,8,Montréal-Nord,Montréal-Nord,REM16,MTN,16,MN,Arrondissement,,2023-11-29
+45.502648,-73.663913,20,POINT (-73.663913 45.502648),23,12,Mont-Royal,Mont-Royal,66072,VMR,2,MR,Ville liée,,2023-11-29
+45.512189,-73.566842,21,POINT (-73.566842 45.512189),30,13,Ville-Marie,Ville-Marie,REM19,VIM,20,VM,Arrondissement,,2023-11-29
+45.539928,-73.540388,5,POINT (-73.540388 45.539928),16,16,Mercier-Hochelaga-Maisonneuve,Mercier–Hochelaga-Maisonneuve,REM22,MHM,23,MH,Arrondissement,,2023-11-29
+45.651722,-73.573896,23,POINT (-73.573896 45.651722),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.468297,-73.741185,22,POINT (-73.741185 45.468297),29,7,Saint-Laurent,Saint-Laurent,REM15,VSL,15,LR,Arrondissement,,2023-11-29
+45.542767,-73.572039,22,POINT (-73.572039 45.542767),4,18,Rosemont-La Petite-Patrie,Rosemont–La Petite-Patrie,REM24,RPP,25,RO,Arrondissement,,2023-11-29
+45.426509,-73.928944,23,POINT (-73.928944 45.426509),8,31,Sainte-Anne-de-Bellevue,Sainte-Anne-de-Bellevue,66117,SAB,76,BV,Ville liée,,2023-11-29
+45.464611,-73.582583,21,POINT (-73.582583 45.464611),15,14,Le Sud-Ouest,Le Sud-Ouest,REM20,LSO,21,SO,Arrondissement,Il est important de noter que la limite située sur la falaise Saint-Jacques n'est pas officielle. Cette limite est à préciser.,2023-11-29
+45.641026,-73.499682,25,POINT (-73.499682 45.641026),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.602846,-73.558874,22,POINT (-73.558874 45.602846),13,34,Anjou,Anjou,REM09,ANJ,9,AJ,Arrondissement,,2023-11-29
+45.593325,-73.637328,21,POINT (-73.637328 45.593325),20,8,Montréal-Nord,Montréal-Nord,REM16,MTN,16,MN,Arrondissement,,2023-11-29
+45.502648,-73.663913,21,POINT (-73.663913 45.502648),23,12,Mont-Royal,Mont-Royal,66072,VMR,2,MR,Ville liée,,2023-11-29
+45.512189,-73.566842,21,POINT (-73.566842 45.512189),30,13,Ville-Marie,Ville-Marie,REM19,VIM,20,VM,Arrondissement,,2023-11-29
+45.539928,-73.540388,5,POINT (-73.540388 45.539928),16,16,Mercier-Hochelaga-Maisonneuve,Mercier–Hochelaga-Maisonneuve,REM22,MHM,23,MH,Arrondissement,,2023-11-29
+45.651722,-73.573896,23,POINT (-73.573896 45.651722),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.468297,-73.741185,23,POINT (-73.741185 45.468297),29,7,Saint-Laurent,Saint-Laurent,REM15,VSL,15,LR,Arrondissement,,2023-11-29
+45.542767,-73.572039,22,POINT (-73.572039 45.542767),4,18,Rosemont-La Petite-Patrie,Rosemont–La Petite-Patrie,REM24,RPP,25,RO,Arrondissement,,2023-11-29
+45.426509,-73.928944,23,POINT (-73.928944 45.426509),8,31,Sainte-Anne-de-Bellevue,Sainte-Anne-de-Bellevue,66117,SAB,76,BV,Ville liée,,2023-11-29
+45.464611,-73.582583,21,POINT (-73.582583 45.464611),15,14,Le Sud-Ouest,Le Sud-Ouest,REM20,LSO,21,SO,Arrondissement,Il est important de noter que la limite située sur la falaise Saint-Jacques n'est pas officielle. Cette limite est à préciser.,2023-11-29
+45.641026,-73.499682,25,POINT (-73.499682 45.641026),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.602846,-73.558874,22,POINT (-73.558874 45.602846),13,34,Anjou,Anjou,REM09,ANJ,9,AJ,Arrondissement,,2023-11-29
+45.593325,-73.637328,21,POINT (-73.637328 45.593325),20,8,Montréal-Nord,Montréal-Nord,REM16,MTN,16,MN,Arrondissement,,2023-11-29
+45.502648,-73.663913,21,POINT (-73.663913 45.502648),23,12,Mont-Royal,Mont-Royal,66072,VMR,2,MR,Ville liée,,2023-11-29
+45.512189,-73.566842,22,POINT (-73.566842 45.512189),30,13,Ville-Marie,Ville-Marie,REM19,VIM,20,VM,Arrondissement,,2023-11-29
+45.539928,-73.540388,5,POINT (-73.540388 45.539928),16,16,Mercier-Hochelaga-Maisonneuve,Mercier–Hochelaga-Maisonneuve,REM22,MHM,23,MH,Arrondissement,,2023-11-29
+45.651722,-73.573896,23,POINT (-73.573896 45.651722),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.468297,-73.741185,23,POINT (-73.741185 45.468297),29,7,Saint-Laurent,Saint-Laurent,REM15,VSL,15,LR,Arrondissement,,2023-11-29
+45.542767,-73.572039,22,POINT (-73.572039 45.542767),4,18,Rosemont-La Petite-Patrie,Rosemont–La Petite-Patrie,REM24,RPP,25,RO,Arrondissement,,2023-11-29
+45.426509,-73.928944,22,POINT (-73.928944 45.426509),8,31,Sainte-Anne-de-Bellevue,Sainte-Anne-de-Bellevue,66117,SAB,76,BV,Ville liée,,2023-11-29
+45.464611,-73.582583,21,POINT (-73.582583 45.464611),15,14,Le Sud-Ouest,Le Sud-Ouest,REM20,LSO,21,SO,Arrondissement,Il est important de noter que la limite située sur la falaise Saint-Jacques n'est pas officielle. Cette limite est à préciser.,2023-11-29
+45.641026,-73.499682,25,POINT (-73.499682 45.641026),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.602846,-73.558874,23,POINT (-73.558874 45.602846),13,34,Anjou,Anjou,REM09,ANJ,9,AJ,Arrondissement,,2023-11-29
+45.593325,-73.637328,21,POINT (-73.637328 45.593325),20,8,Montréal-Nord,Montréal-Nord,REM16,MTN,16,MN,Arrondissement,,2023-11-29
+45.502648,-73.663913,21,POINT (-73.663913 45.502648),23,12,Mont-Royal,Mont-Royal,66072,VMR,2,MR,Ville liée,,2023-11-29
+45.512189,-73.566842,22,POINT (-73.566842 45.512189),30,13,Ville-Marie,Ville-Marie,REM19,VIM,20,VM,Arrondissement,,2023-11-29
+45.539928,-73.540388,5,POINT (-73.540388 45.539928),16,16,Mercier-Hochelaga-Maisonneuve,Mercier–Hochelaga-Maisonneuve,REM22,MHM,23,MH,Arrondissement,,2023-11-29
+45.651722,-73.573896,23,POINT (-73.573896 45.651722),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.468297,-73.741185,23,POINT (-73.741185 45.468297),29,7,Saint-Laurent,Saint-Laurent,REM15,VSL,15,LR,Arrondissement,,2023-11-29
+45.542767,-73.572039,21,POINT (-73.572039 45.542767),4,18,Rosemont-La Petite-Patrie,Rosemont–La Petite-Patrie,REM24,RPP,25,RO,Arrondissement,,2023-11-29
+45.426509,-73.928944,23,POINT (-73.928944 45.426509),8,31,Sainte-Anne-de-Bellevue,Sainte-Anne-de-Bellevue,66117,SAB,76,BV,Ville liée,,2023-11-29
+45.464611,-73.582583,24,POINT (-73.582583 45.464611),15,14,Le Sud-Ouest,Le Sud-Ouest,REM20,LSO,21,SO,Arrondissement,Il est important de noter que la limite située sur la falaise Saint-Jacques n'est pas officielle. Cette limite est à préciser.,2023-11-29
+45.641026,-73.499682,25,POINT (-73.499682 45.641026),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.602846,-73.558874,23,POINT (-73.558874 45.602846),13,34,Anjou,Anjou,REM09,ANJ,9,AJ,Arrondissement,,2023-11-29
+45.593325,-73.637328,22,POINT (-73.637328 45.593325),20,8,Montréal-Nord,Montréal-Nord,REM16,MTN,16,MN,Arrondissement,,2023-11-29
+45.502648,-73.663913,20,POINT (-73.663913 45.502648),23,12,Mont-Royal,Mont-Royal,66072,VMR,2,MR,Ville liée,,2023-11-29
+45.512189,-73.566842,22,POINT (-73.566842 45.512189),30,13,Ville-Marie,Ville-Marie,REM19,VIM,20,VM,Arrondissement,,2023-11-29
+45.539928,-73.540388,6,POINT (-73.540388 45.539928),16,16,Mercier-Hochelaga-Maisonneuve,Mercier–Hochelaga-Maisonneuve,REM22,MHM,23,MH,Arrondissement,,2023-11-29
+45.651722,-73.573896,23,POINT (-73.573896 45.651722),27,11,Rivière-des-Prairies-Pointe-aux-Trembles,Rivière-des-Prairies–Pointe-aux-Trembles,REM33,RDP,19,RP,Arrondissement,,2023-11-29
+45.468297,-73.741185,24,POINT (-73.741185 45.468297),29,7,Saint-Laurent,Saint-Laurent,REM15,VSL,15,LR,Arrondissement,,2023-11-29
+45.542767,-73.572039,22,POINT (-73.572039 45.542767),4,18,Rosemont-La Petite-Patrie,Rosemont–La Petite-Patrie,REM24,RPP,25,RO,Arrondissement,,2023-11-29
+45.426509,-73.928944,23,POINT (-73.928944 45.426509),8,31,Sainte-Anne-de-Bellevue,Sainte-Anne-de-Bellevue,66117,SAB,76,BV,Ville liée,,2023-11-29
+45.464611,-73.582583,23,POINT (-73.582583 45.464611),15,14,Le Sud-Ouest,Le Sud-Ouest,REM20,LSO,21,SO,Arrondissement,Il est important de noter que la limite située sur la falaise Saint-Jacques n'est pas officielle. Cette limite est à préciser.,2023-11-29
